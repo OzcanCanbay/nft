@@ -1,0 +1,102 @@
+@font-face {
+    font-family:mont;
+    src: url(/font/Montserrat.ttf);
+}
+body{
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, #2B003F 0%, #00032A 100%), radial-gradient(146.07% 93.87% at 100% 0%, #2B003F 0%, #09022E 99.99%, #00032A 100%);
+    left: 24px;
+    top: -3px;
+}
+picture img{
+    width: 250px;
+    height: 56px;
+    
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.safe-area{
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+.menu-item{
+    font-size: 18px;
+    color: #ffff;
+    padding: 8px 16px;
+    margin:0 16px 0 0;
+    text-decoration: none;
+    font-family:mont;
+}
+.btn-connect{
+    border-radius: 58px;
+    background-color: #ffff;
+    color: #00032A;
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: 125px;
+} 
+
+.title{
+    margin-top: 340px;
+    margin-left:589px;
+}
+.titleh1{
+    width: 693px;
+    height: 118px;
+}
+.titleh1 h1{
+    color: #ffff;
+    font-family: mont;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 59px;
+    text-align: center;
+}
+.button{
+    margin-left: 790px;
+    margin-top: 32px;
+}
+.butonh1{
+    border-radius: 51px;
+    background-color: #2C268C;
+    width: 292px;
+    height: 44px;
+    
+}
+
+.butonh3{
+    display: flex;
+    width: 292px;
+    height: 22px;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    padding: 11px 16px 11px 10px;
+}
+.img{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 8px 10px 8px 16px;
+    margin-top: -10px;
+}
+.social{
+    width: 128px;
+    height: 42px;
+    margin-top: 16px;
+    margin-left: 876px;
+    
+}
+.socialb{
+    width: 160px;
+    height: 42px;
+}
+.socialb i{
+    padding: 0px 16px 0px 0px;
+}
